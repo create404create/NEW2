@@ -36,16 +36,34 @@
         <button onclick="resetGame()">Reset Game</button>
     </div>
 
-    <!-- Flappy Bird Game -->
-    <div class="flappy-bird">
-        <h3>Flappy Bird</h3>
-        <canvas id="flappyCanvas" width="300" height="400"></canvas>
+    <!-- Space Invaders Game -->
+    <div class="space-invaders">
+        <h3>Space Invaders</h3>
+        <canvas id="spaceCanvas" width="300" height="400"></canvas>
         <p class="score">Score: 0</p>
-        <button onclick="resetFlappyGame()">Reset Game</button>
+        <button onclick="resetSpaceGame()">Reset Game</button>
+    </div>
+
+    <!-- Breakout Game -->
+    <div class="breakout">
+        <h3>Breakout</h3>
+        <canvas id="breakoutCanvas" width="300" height="400"></canvas>
+        <p class="score">Score: 0</p>
+        <button onclick="resetBreakoutGame()">Reset Game</button>
+    </div>
+
+    <!-- Sudoku Game -->
+    <div class="sudoku">
+        <h3>Sudoku</h3>
+        <div class="sudoku-board"></div>
+        <p class="status">Fill the board correctly!</p>
+        <button onclick="resetSudokuGame()">Reset Game</button>
     </div>
 
     <script src="script.js"></script>
     <script src="tic-tac-toe.js"></script>
-    <script src="flappy-bird.js"></script>
+    <script src="space-invaders.js"></script>
+    <script src="breakout.js"></script>
+    <script src="sudoku.js"></script>
 </body>
 </html>
