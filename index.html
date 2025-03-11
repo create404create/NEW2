@@ -36,27 +36,16 @@
         <button onclick="resetGame()">Reset Game</button>
     </div>
 
-    <!-- Rock Paper Scissors Game -->
-    <div class="rock-paper-scissors">
-        <h3>Rock Paper Scissors</h3>
-        <div class="choices">
-            <button onclick="playGame('rock')">✊ Rock</button>
-            <button onclick="playGame('paper')">✋ Paper</button>
-            <button onclick="playGame('scissors')">✌️ Scissors</button>
-        </div>
-        <p class="result">Choose an option to play!</p>
-        <p class="score">Score: You 0 - 0 Computer</p>
-        <button onclick="resetRPSGame()">Reset Game</button>
+    <!-- Flappy Bird Game -->
+    <div class="flappy-bird">
+        <h3>Flappy Bird</h3>
+        <canvas id="flappyCanvas" width="300" height="400"></canvas>
+        <p class="score">Score: 0</p>
+        <button onclick="resetFlappyGame()">Reset Game</button>
     </div>
 
-    <footer>
-        <div class="animated-line">
-            <p>CREATED BY EHTISHAM</p>
-        </div>
-    </footer>
-
-    <!-- Include JavaScript Files -->
     <script src="script.js"></script>
     <script src="tic-tac-toe.js"></script>
+    <script src="flappy-bird.js"></script>
 </body>
 </html>
