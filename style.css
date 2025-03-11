@@ -110,8 +110,8 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Rock Paper Scissors Game Styling */
-.rock-paper-scissors {
+/* Flappy Bird Game Styling */
+.flappy-bird {
     position: fixed;
     bottom: 20px;
     left: 20px;
@@ -119,25 +119,28 @@ button:hover {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 200px;
+    width: 300px;
     text-align: center;
 }
 
-.rock-paper-scissors h3 {
+.flappy-bird h3 {
     margin: 0 0 10px;
     font-size: 16px;
 }
 
-.rock-paper-scissors .choices {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-bottom: 10px;
+.flappy-bird canvas {
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.rock-paper-scissors button {
-    padding: 10px;
-    font-size: 18px;
+.flappy-bird .score {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.flappy-bird button {
+    padding: 5px 10px;
+    font-size: 12px;
     background-color: #007bff;
     color: white;
     border: none;
@@ -146,37 +149,6 @@ button:hover {
     transition: background-color 0.3s ease;
 }
 
-.rock-paper-scissors button:hover {
+.flappy-bird button:hover {
     background-color: #0056b3;
-}
-
-.rock-paper-scissors .result {
-    font-size: 14px;
-    margin: 10px 0;
-    font-weight: bold;
-}
-
-.rock-paper-scissors .score {
-    font-size: 14px;
-    margin: 10px 0;
-}
-
-/* Footer Styling */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-}
-
-.animated-line {
-    animation: slide 5s infinite;
-}
-
-@keyframes slide {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
 }
